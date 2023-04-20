@@ -39,7 +39,7 @@ col_type, col_distance = st.columns(2)
 
 with col_type:
     given_type = st.radio(
-        "",
+        "Entering split or total time",
         options=[
             "Split",
             "Time"
