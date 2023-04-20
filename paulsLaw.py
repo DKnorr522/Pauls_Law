@@ -101,13 +101,13 @@ new_time = seconds_to_time(time_seconds)
 col_split, col_time = st.columns(2)
 
 with col_split:
-    st.subheader("New Split")
+    st.subheader("Adjusted Split")
     st.write(
         printable_time(new_split)
     )
 
 with col_time:
-    st.subheader("New Time")
+    st.subheader("Adjusted Time")
     st.write(
         printable_time(new_time)
     )
