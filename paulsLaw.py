@@ -5,7 +5,10 @@ from datetime import time
 
 def paulsLaw(seconds, old_distance, new_distance):
     return round(
-        seconds + 5*log(new_distance / old_distance, 2),
+        seconds + 5*log(
+            new_distance / old_distance,
+            2
+        ),
         1
     )
 
